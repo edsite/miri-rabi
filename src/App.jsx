@@ -223,12 +223,12 @@ const MiriWebsite = () => {
           <Reveal>
             <div style={{ display:'flex', justifyContent:'center' }}>
               <div style={{ position:'relative' }}>
-                <div style={{ width:320, height:320, borderRadius:'50%', background:'linear-gradient(135deg,#fef3c7 0%,#fde68a 50%,#fcd34d 100%)', border:'6px solid #fff', boxShadow:'0 24px 60px rgba(180,83,9,0.2)', display:'flex', alignItems:'center', justifyContent:'center', animation:'float 4s ease-in-out infinite' }}>
-                  <div style={{ textAlign:'center', padding:'0 32px' }}>
-                    <div style={{ fontFamily:"'Playfair Display',serif", color:'#78350f', fontSize:'1.5rem', marginBottom:8 }}>Miri Rabi</div>
-                    <div style={{ color:'#b45309', fontSize:'0.9rem', lineHeight:1.6 }}>Kallah Teacher &<br />Marriage Educator</div>
-                    <div style={{ marginTop:16, fontSize:'1.5rem', color:'#d97706' }}>✦</div>
-                  </div>
+                <div style={{ width:320, height:320, borderRadius:'50%', border:'6px solid #fff', boxShadow:'0 24px 60px rgba(180,83,9,0.25)', overflow:'hidden', animation:'float 4s ease-in-out infinite', background:'#fef3c7' }}>
+                  <img
+                    src="https://res.cloudinary.com/dbmxturu6/image/upload/w_640,h_640,c_fill,g_face,q_auto,f_auto/v1771934908/IMG_4209_Original_n7bteu.jpg"
+                    alt="Miri Rabi — Kallah Teacher & Marriage Educator"
+                    style={{ width:'100%', height:'100%', objectFit:'cover', objectPosition:'center top', display:'block' }}
+                  />
                 </div>
                 <div style={{ position:'absolute', bottom:-12, right:-12, background:'#fff', borderRadius:50, padding:'8px 16px', boxShadow:'0 4px 20px rgba(0,0,0,0.1)', border:'1px solid #fef3c7' }}>
                   <span style={{ fontSize:'0.75rem', fontWeight:600, color:'#78350f' }}>Melbourne & Worldwide</span>
